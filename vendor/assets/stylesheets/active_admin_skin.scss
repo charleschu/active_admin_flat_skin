@@ -572,6 +572,8 @@ html {
     }
     .panel_contents{
       float: left;
+      height: 400px;
+      overflow: scroll;
     }
     ul{
       float:left;
