@@ -39,7 +39,9 @@ jQuery(document).ready(function($) {
       $(this).find('ul').slideToggle().toggleClass('slided_down');
     });
   });
-
+  if($('#session_new').length===1){
+    $('#active_admin_content').addClass('active_admin_content_login')
+  }
 
 
 });
