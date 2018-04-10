@@ -42,7 +42,7 @@ jQuery(document).ready(function($) {
   if($('#session_new').length===1){
     $('#active_admin_content').addClass('active_admin_content_login')
   }
-  var searchBar= '<form class="form"  accept-charset="UTF-8" action="/admin/search" method="get"><div class="input-group"><input class="form-control search-bar" type="text" placeholder="Search value="<%="#{@query}"%> aria-label="Search"  id="query" name="query"><div class="input-group-addon"><button class="btn btn-warning btn-sm search-button" type="submit"  id="search-btn"><i class="fa fa-search"></i></button></div></div></form>'
+  var searchBar= '<form class="form"  accept-charset="UTF-8" action="/admin/search" method="get"><div class="input-group"><input class="form-control search-bar" type="text" placeholder="Search" value="<%="#{@query}"%> aria-label="Search"  id="query" name="query"><div class="input-group-addon"><button class="btn btn-warning btn-sm search-button" type="submit"  id="search-btn"><i class="fa fa-search"></i></button></div></div></form>'
   $('#tabs').prepend($('<li class="has_nested">').html(searchBar))
 
 });
